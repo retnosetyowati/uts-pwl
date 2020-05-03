@@ -27,7 +27,7 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
         <li class="active treeview">
-          <a href="#">
+          <a href="<?php echo base_url () ?> ">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
 
           </a>

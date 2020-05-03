@@ -38,10 +38,10 @@ class Mahasiswa extends CI_Controller {
 			'nama'			=> $nama,
 			'nim'			=> $nim,
 			'tgl_lahir'		=> $tgl_lahir,
-			'jurusan'		=> $jurusan,
+			'jurusan'		=> $jurusan
 		);
 
 		$this->m_mahasiswa->input_data($data, 'tb_mahasiswa');
-		redirect('mahasiswa/index');
+		redirect('Mahasiswa/index');
 	}
 }
